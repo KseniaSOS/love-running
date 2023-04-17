@@ -252,7 +252,7 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -291,7 +291,7 @@ footer {
 
 /* For medium screens size from 950px wide and down */
 
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
@@ -325,5 +325,15 @@ footer {
         padding: 0 20px;
     }
 
+    #photos {
+        column-count: 3;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
 
