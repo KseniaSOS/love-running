@@ -270,10 +270,17 @@ footer {
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
         padding: 0;
     }
 
